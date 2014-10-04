@@ -3,6 +3,9 @@
  */
 public class BrainFuckApp {
     public static void main(String[] args) {
-        System.out.println("777");
+        BrainFuckInterpretation bfi = new BrainFuckInterpretation();
+        bfi.brainFuckInterpretation("++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++.<<+++++++++++++++.>.+++.------.--------.>+.>.");
+        //bfi.getMessage();
+
     }
 }
